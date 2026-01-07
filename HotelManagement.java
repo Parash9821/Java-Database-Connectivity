@@ -13,7 +13,7 @@ public class HotelManagement {
 
     private static final String url = "jdbc:mysql://localhost:3306/hotel_db";
     private static final String username = "root";
-    private static final String password = "parash123@#321";
+    private static final String password = "parash123@#";
 
 
     public static void main(String[] args) throws ClassNotFoundException {
@@ -255,3 +255,4 @@ public class HotelManagement {
     }
 
 }
+
