@@ -5,7 +5,7 @@ public class UpdateSQL {
 
         String url = "jdbc:mysql://localhost:3306/mydatabase";
         String username = "root";
-        String password = "parash123@#321";
+        String password = "parash123@#";
         String query = " UPDATE student set name='Sanjog Bhattarai', address='Bandipur' WHERE id=1; ";
 
 
@@ -29,4 +29,5 @@ public class UpdateSQL {
 
         }
     }
+
 }
