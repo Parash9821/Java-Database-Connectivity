@@ -7,7 +7,7 @@ public class InsertSQL {
         Scanner sc =new Scanner(System.in);
     String url="jdbc:mysql://localhost:3306/mydatabase";
     String username="root";
-    String password= "parash123@#321";
+    String password= "parash123@#";
 
 
         String query="INSERT INTO student(id,name,address) VALUES(3,'Gopal','Dadedhura');";
@@ -50,3 +50,4 @@ public class InsertSQL {
 
 
 }}
+
