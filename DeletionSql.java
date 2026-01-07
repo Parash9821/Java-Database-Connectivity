@@ -4,7 +4,7 @@ public class DeletionSql {
 
         String url="jdbc:mysql://localhost:3306/mydatabase";
         String name="root";
-        String password="parash123@#321";
+        String password="parash123@#";
         String query="DELETE FROM student WHERE id=3;";
 
 
@@ -31,3 +31,4 @@ public class DeletionSql {
 
 
 }
+
