@@ -7,7 +7,7 @@ public class ImageHandling {
     public static void main(String[] args) throws ClassNotFoundException {
         String url = "jdbc:mysql://localhost:3306/exampledb";
         String username = "root";
-        String password = "parash123@#321";
+        String password = "parash123@#";
         String image_path = "C:\\Users\\acer\\OneDrive\\Documents\\Pictures\\Nitro\\wallpapersden.com_digital-roronoa-zoro-minimal-one-piece-art_1927x1080.jpg";
         String query="INSERT INTO image_table(image_data) VALUES(?)";
         try {
@@ -35,4 +35,5 @@ public class ImageHandling {
 
         }
     }
+
 }
