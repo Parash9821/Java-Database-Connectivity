@@ -7,7 +7,7 @@ public class ImageRetrive {
     public static void main(String[] args) throws ClassNotFoundException {
         String url = "jdbc:mysql://localhost:3306/exampledb";
         String username = "root";
-        String password = "parash123@#321";
+        String password = "parash123@#";
         String folder_path = "C:\\Users\\acer\\OneDrive\\Desktop\\BCSIT ALL\\";
         String query="SELECT image_data FROM image_table WHERE image_id=(?)";
         try {
@@ -38,4 +38,5 @@ public class ImageRetrive {
 
         }
     }
+
 }
