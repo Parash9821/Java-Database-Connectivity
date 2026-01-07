@@ -4,7 +4,7 @@ public class Main {
 
         String url= "jdbc:mysql://localhost:3306/mydatabase";
         String username="root";
-        String password="parash123@#321";
+        String password="parash123@#";
 
         String query="SELECT * FROM employee";
 
