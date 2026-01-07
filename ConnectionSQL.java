@@ -4,7 +4,7 @@ public class ConnectionSQL {
     public static void main(String[] args) throws ClassNotFoundException {
         String url = "jdbc:mysql://localhost:3306/mydatabase";
         String username = "root";
-        String password = "parash123@#321";
+        String password = "parash123";
         String query = "SELECT * FROM student;";
 
 
@@ -38,3 +38,4 @@ public class ConnectionSQL {
         }
     }
 }
+
