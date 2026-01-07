@@ -5,7 +5,7 @@ public class TransactionHandling {
     public static void main(String[] args) throws ClassNotFoundException {
         String url="jdbc:mysql://localhost:3306/exampledb";
         String username="root";
-        String password= "parash123@#321";
+        String password= "parash123@#";
         String withdrawBalanceQuery="UPDATE accounts SET amount=amount-? WHERE account_number=?";
         String depositBalanceQuery="UPDATE accounts SET amount=amount+? WHERE account_number=?";
 
@@ -43,3 +43,4 @@ public class TransactionHandling {
         }
     }
 }
+
