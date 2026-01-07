@@ -7,7 +7,7 @@ public class PreparedStmtInsert {
     public static void main(String[] args)throws ClassNotFoundException{
         String url="jdbc:mysql://localhost:3306/hotel_db";
         String username="root";
-        String password="parash123@#321";
+        String password="parash123@#";
 
         String query2="INSERT INTO reservation(reservation_id, guest_name, room_number, contact_number) VALUES(?, ?, ?, ?)";
 
@@ -63,3 +63,4 @@ public class PreparedStmtInsert {
         }
     }
 }
+
